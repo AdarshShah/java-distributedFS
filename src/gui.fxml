@@ -22,7 +22,7 @@
             <Label layoutX="320.0" layoutY="14.0" text="Peer ID" />
             <Label layoutX="320.0" layoutY="44.0" text="Reception Port" />
             <TextField fx:id="groupIP" layoutX="97.0" layoutY="10.0" />
-            <TextField fx:id="groupPort" layoutX="97.0" layoutY="40.0" />
+            <TextField fx:id="groupPort" layoutX="97.0" layoutY="40.0" prefHeight="25.0" prefWidth="68.0" />
             <TextField fx:id="peerID" layoutX="414.0" layoutY="10.0" prefHeight="25.0" prefWidth="177.0" />
             <TextField fx:id="receptionPort" layoutX="414.0" layoutY="40.0" prefHeight="25.0" prefWidth="101.0" />
             <Button fx:id="set" layoutX="532.0" layoutY="40.0" mnemonicParsing="false" onAction="#connect" prefHeight="25.0" prefWidth="59.0" text="Set" />
@@ -30,6 +30,7 @@
             <TextField fx:id="filename" layoutX="97.0" layoutY="74.0" prefHeight="25.0" prefWidth="418.0" />
             <Label layoutX="14.0" layoutY="78.0" text="File" />
             <Button fx:id="search" layoutX="536.0" layoutY="74.0" mnemonicParsing="false" onAction="#searchFile" text="Search" />
+            <TextField fx:id="folder" layoutX="172.0" layoutY="40.0" prefHeight="25.0" prefWidth="138.0" />
       </children>
     </AnchorPane>
   </children>
